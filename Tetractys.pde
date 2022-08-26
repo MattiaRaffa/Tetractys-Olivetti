@@ -15,9 +15,18 @@ blendMode(MULTIPLY);
 
 strokeJoin(MITER);
 beginShape();
-vertex(140, 80);
-vertex(260, 200);
-vertex(140, 320);
+stroke(#3E494E);
+vertex(340, 80);
+vertex(460, 200);
+vertex(340, 320);
+endShape();
+
+strokeJoin(MITER);
+beginShape();
+stroke(#679EAA);
+vertex(240, 80);
+vertex(360, 200);
+vertex(240, 320);
 endShape();
 
 beginShape();
